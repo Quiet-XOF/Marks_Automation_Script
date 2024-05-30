@@ -150,8 +150,8 @@ def main():
         writer._save()
         
         client = FrameioClient("<INSERT TOKEN>")
-        project_id = "0a1e7b1c-5c2a-4482-9276-f86e9b844871"
-        folder_id = "bcd4600f-0767-4453-949f-04180e092c6e"
+        project_id = "insert project id"
+        folder_id = "insert folder id"
         for i, line in enumerate(dictionary["Frame"]): 
             start, end = line.split("-")
             start = int(start)
